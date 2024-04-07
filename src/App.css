@@ -393,6 +393,7 @@ a:hover {
 
 .footer {
   width: 100%;
+  max-height: 114px;
   display: flex;
   align-items: center;
   flex-direction: column;
