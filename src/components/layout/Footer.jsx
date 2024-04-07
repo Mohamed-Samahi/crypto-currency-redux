@@ -7,8 +7,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <Typography.Title
-                level={5}
-                style={{ color: "white", textAlign: "center" }}
+                style={{ color: "white", textAlign: "center", fontSize: "16px", fontWeight: "600", lineHeight: "1.5" }}
             >
                 Cryptoverse <br />
                 All Rights Reserved

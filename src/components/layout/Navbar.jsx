@@ -51,7 +51,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="logo-container">
-        <Avatar src={"/assets/cryptocurrency.png"} size="large" />
+        <Avatar src={"/assets/cryptocurrency.png"} size="large" alt="main logo" />
         <Typography.Title level={2} className="logo">
           <Link to="/">Cryptoverse</Link>
         </Typography.Title>
