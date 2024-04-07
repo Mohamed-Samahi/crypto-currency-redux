@@ -1,13 +1,14 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import { Layout, Typography, Space } from "antd";
+import { Routes, Route } from "react-router-dom";
+import { Layout } from "antd";
 
 import {
-  Navbar,
   Homepage,
   Cryptocurrencies,
   CryptoDetails,
   News,
+  Navbar,
+  Footer,
 } from "./components";
 
 import "./App.css";
@@ -40,19 +41,7 @@ const App = () => {
             </div>
           </Layout>
         </div>
-        <div className="footer">
-          <Typography.Title
-            level={5}
-            style={{ color: "white", textAlign: "center" }}
-          >
-            Cryptoverse <br />
-            All Rights Reserved
-          </Typography.Title>
-          <Space>
-            <Link to="/">Home</Link>
-            <Link to="/news">News</Link>
-          </Space>
-        </div>
+        <Footer />
       </div>
     </div>
   );
